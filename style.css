@@ -1,28 +1,5 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
-
-    /**
-     * colors
-     */
-  
-    /* gradient */
-  
     --bg-gradient-onyx: linear-gradient(
       to bottom right, 
       hsl(240, 1%, 25%) 3%, 
@@ -68,11 +45,7 @@
     --light-gray: hsl(0, 0%, 84%);
     --light-gray-70: hsla(0, 0%, 84%, 0.7);
     --bittersweet-shimmer: hsl(0, 43%, 51%);
-  
-    /**
-     * typography
-     */
-  
+
     /* font-family */
     --ff-poppins: 'Poppins', sans-serif;
   
@@ -92,7 +65,7 @@
     --fw-500: 500;
     --fw-600: 600;
   
-    /**
+    /*
      * shadow
      */
     
@@ -102,7 +75,7 @@
     --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
     --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
   
-    /**
+    /*
      * transition
      */
   
@@ -111,13 +84,6 @@
   
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
   
   *, *::before, *::after {
     margin: 0;
@@ -157,13 +123,7 @@
   
   body { background: var(--smoky-black); }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
+
   
   .sidebar,
   article {
